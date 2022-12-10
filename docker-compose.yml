@@ -1,0 +1,8 @@
+version: '3'
+services:
+  kalilinux:
+    build:
+      context: .
+    container_name: kali
+    tty: true
+    command: /bin/bash
